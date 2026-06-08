@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { Metadata } from "next";
 import { fetchFilteredCustomers } from "@/app/lib/data";
 import CustomersTable from "@/app/ui/customers/table";
